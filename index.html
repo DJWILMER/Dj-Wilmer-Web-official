@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+      <meta name="description" content=" Dj Wilmer del Perú, para el mundo entero." />
+      <meta name="author" content="DJ WILMER" />
+      <title>Dj Wilmer En Vivo - Poder Que Se Siente..!</title>
+      
+        
+                  <meta property="og:type" content="website" />
+          <meta property="og:title" content="DJ WILMER - Poder Que Se Siente..!" />
+          <meta property="og:description" content="Dj Wilmer del Perú, para el mundo entero.">
+          <meta property="og:image" content="https://i.ibb.co/mhw9LGh/DJ-WILMER-PNG-ORIGINAL.png" />
+          <meta property="og:type" content="article">
+          <meta property="og:url" content="https://corporacionradioalegria.com/" />
+        
+        <meta name="robots" content="index, follow" />
+        <meta name="googlebot" content="index, follow" />
+        <meta http-equiv="Content-Language" name="language" content="es" />
+        <meta name="distribution" content="Global" />
+        <meta name="lang" content="es" itemprop="inLanguage" />
+        <link rel="canonical" href="https://corporacionradioalegria.com">
+        <!-- IOS Touch Icons -->
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="shortcut icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.ico" />
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+        <!-- Styles -->
+        <link rel="stylesheet" href="https://corporacionradioalegria.com/css/bootstrap.min.css" type="text/css">
+        <link rel="stylesheet" href="https://corporacionradioalegria.com/css/plugins.bundle.css" type="text/css" />
+        <link rel="stylesheet" href="https://corporacionradioalegria.com/css/styles.bundle.css" type="text/css" />
+
+        <script>
+            var base_url = "https://corporacionradioalegria.com";
+        </script>
+        <!-- Google tag (gtag.js) -->
+    </head>
+    <body>
+        <div id="line_loader"></div>
+
+        <div id="loader">
+            <div>
+                <span class="navbar-brand-text">Cargando.......</span>
+                <div id="loader_progress"></div>
+            </div>
+        </div>
+
+        <div id="main">
+            <!-- Start:: header -->
+            <header id="header" style="background: url(https://i.ibb.co/YTQ4SXhH/header.jpg);">
+                <div class="header-top" id="bgheader">
+    <div class="container">
+    <div class="row justify-content-between">
+      <div class="col-md-5 d-flex align-items-center align-self-center align-content-center">
+        <a href="/"><img class="my-3" src="https://i.ibb.co/X2PY9pg/instalar.png
+" alt="" style="width:100%; max-width: 302px;"></a>
+      </div>
+      <div class="col-md-7 d-flex flex-wrap align-items-center justify-content-center my-4 justify-content-md-end">
+        <a href="https://wa.me/51984335569" class="whatsapp">
+          <h4><i class="bi bi-whatsapp"></i> 984335569</h4>
+        </a>
+        <div class="d-flex justify-content-end" style="max-width: 140px;">
+            <button onclick="buscador()" class="btn bg-light mt-0 text-primary mx-2">
+              <i class="bi bi-search"></i>
+            </button>
+            <button onclick="megamenu()" class="btn bg-light mt-0 text-primary mx-2">
+              <i class="bi bi-list"></i>
+            </button>
+        </div>
+      </div>
+    </div>
+    </div>
+</div>
+<!-- Responsive navbar-->
+<nav class="navbar navbar-expand-lg pb-0 pt-0 bg-primary" id="menutopscroll">
+  <div class="container">
+    <div class=" collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 w-100 justify-content-between">
+        <li class="nav-item sowertec-e"><a class="nav-link p-3 active" href="/index.php"><i class="bi bi-home"></i> Inicio</a></li>
+        <li class="nav-item sowertec-e"><a class="nav-link p-3 " href="/noticias"><i class="bi bi-newspaper"></i> Noticias</a></li>
+        <li class="nav-item sowertec-e">
+          <a class="nav-link p-3 " href="/videos">
+        <i class="bi bi-youtube"></i> Videos
+      </a>
+      </li>
+      <li class="nav-item border-bottom border-dark sowertec-e">
+            <a class="nav-link p-3 " href="/radio"><i class="bi bi-boombox"></i> Emisoras</a>
+          </li>
+              <li class="nav-item sowertec-e">
+          <a class="nav-link p-3 " href="/programacion"><i class="bi bi-list"></i> Programacion
+          </a>
+        </li>
+        <li class="nav-item sowertec-e"><a class="nav-link p-3 " href="/nosotros"><i class="bi bi-question-lg"></i>¿DJ WILMER?</a></li>
+        <li class="nav-item sowertec-e"><a class="nav-link p-3 " href="/contactos"><i class="bi bi-person"></i> Contacto</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="bg-dark">
+  <div class="container">
+    <div class="row  " >
+      <div class="col d-flex">
+        <i class="bi bi-music-note-list my-1 text-white"></i>
+        <marquee class="text-white" id="nowplay"></marquee>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section id="buscar" class="search-block pt-3 pb-3 bg-primary" style="display: none;">
+    <div class="container d-flex justify-content-between">
+      <!-- search -->
+      <form class="search w-100 d-flex me-3" method="get" action="/index.php?buscar=" role="search">
+        <input class="form-control form-control-lg form-control-borderless me-3" type="search" name="buscar" placeholder="Ingresa tu búsqueda">
+        <button class="btn bg-success text-white" type="submit" role="button"><i class="bi bi-search"></i></button>
+      </form>
+      <!-- /search -->
+      <a onclick="buscador()" class="btn btn-outline-warning d-flex align-items-center"><i class="bi bi-x-lg"></i></a>
+    </div>
+  </section>
+            </header>
+            <!-- End:: header --><!-- Start:: under header -->
+            <div class="under-header">
+                <div id="sticky_content" class="">
+                  <header class="container bg-light pt-3">
+  <div class="row">
+    <div class="col-md-8">
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+                            <div class="carousel-item active"><img src="https://i.ibb.co/h1940y3F/publicidad-1-DJ-WILMER.jpg" class="d-block w-100" alt="..."></div>
+                                          <div class="carousel-item"><img src="https://i.ibb.co/bg1Lk17b/publicidad-2.jpg" class="d-block w-100" alt="..."></div>
+                            <div class="carousel-item"><img src="https://i.ibb.co/gZ2NPqj8/PUBLICIDAD-3.gif" class="d-block w-100" alt="..."></div>
+                        </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+          </button>
+      </div>
+    </div>
+    <div class="col-md-4 d-flex flex-wrap align-items-center justify-content-end py-2">
+            <div class="botonera my-2" id="dialess" >
+        <button
+            type="button"
+            class="botonesnew me-1"
+            data-radio-id="114"
+            data-radio-cover="https://i.ibb.co/mhw9LGh/DJ-WILMER-PNG-ORIGINAL.png"
+            data-radio-url="https://stream.zeno.fm/wttrxavefwzuv"
+            data-radio-title="DJ WILMER EN VIVO"
+            data-radio-category="Luya Amazonas">
+            <i class="bi bi-play icon-play"></i>
+            <i class="bi bi-pause icon-pause"></i>
+
+        </button>
+        <div class="d-flex flex-column me-1 titulodial">
+          <span class="play-btn-text lugares">DJ WILMER EN VIVO</span>
+          <p class="diales">Luya Amazonas</p>
+        </div>
+        <p class="play-btn-text"></p>
+      </div>
+            <div class="botonera my-2" id="dialess" >
+        <button
+            type="button"
+            class="botonesnew me-1"
+            data-radio-id="113"
+            data-radio-cover="https://i.ibb.co/mhw9LGh/DJ-WILMER-PNG-ORIGINAL.png"
+            data-radio-url="https://sonic.dattassd.com/9092/stream"
+            data-radio-title="STREAMING DELGADO"
+            data-radio-category="LUYA AMAZONAS ">
+            <i class="bi bi-play icon-play"></i>
+            <i class="bi bi-pause icon-pause"></i>
+
+        </button>
+        <div class="d-flex flex-column me-1 titulodial">
+          <span class="play-btn-text lugares">STREAMING DELGADO</span>
+          <p class="diales">LUYA AMAZONAS</p>
+        </div>
+        <p class="play-btn-text"></p>
+      </div>
+            <div class="botonera my-2" id="dialess" >
+        <button
+            type="button"
+            class="botonesnew me-1"
+            data-radio-id="111"
+            data-radio-cover="https://corporacionradioalegria.com/images/512.jpg"
+            data-radio-url="https://stream.zeno.fm/wttrxavefwzuv"
+            data-radio-title="RADIO STREAMING"
+            data-radio-category="CAMPORREDONDO AMAZONAS">
+            <i class="bi bi-play icon-play"></i>
+            <i class="bi bi-pause icon-pause"></i>
+
+        </button>
+        <div class="d-flex flex-column me-1 titulodial">
+          <span class="play-btn-text lugares">RADIO STREAMING</span>
+          <p class="diales">CAMPORREDONDO AMAZONAS</p>
+        </div>
+        <p class="play-btn-text"></p>
+      </div>
+            <div class="botonera my-2" id="dialess" >
+        <button
+            type="button"
+            class="botonesnew me-1"
+            data-radio-id="110"
+            data-radio-cover="https://i.ibb.co/mhw9LGh/DJ-WILMER-PNG-ORIGINAL.png"
+            data-radio-url="https://stream.zeno.fm/rn6uzquuqv8uv"
+            data-radio-title="RADIO OCALLI"
+            data-radio-category="100.5 FM">
+            <i class="bi bi-play icon-play"></i>
+            <i class="bi bi-pause icon-pause"></i>
+
+        </button>
+        <div class="d-flex flex-column me-1 titulodial">
+          <span class="play-btn-text lugares">RADIO OCALLI </span>
+          <p class="diales">100.5FM LUYA AMAZONAS</p>
+        </div>
+        <p class="play-btn-text"></p>
+      </div>
+            <div class="botonera my-2" id="dialess" >
+        <button
+            type="button"
+            class="botonesnew me-1"
+            data-radio-id="109"
+            data-radio-cover="https://i.ibb.co/mhw9LGh/DJ-WILMER-PNG-ORIGINAL.png"
+            data-radio-url="https://sonic.dattassd.com/8192/stream"
+            data-radio-title="RELAVE"
+            data-radio-category="98.3 FM">
+            <i class="bi bi-play icon-play"></i>
+            <i class="bi bi-pause icon-pause"></i>
+
+        </button>
+        <div class="d-flex flex-column me-1 titulodial">
+          <span class="play-btn-text lugares">RELAVE</span>
+          <p class="diales">98.3 FM</p>
+        </div>
+        <p class="play-btn-text"></p>
+      </div>
+            <div class="botonera my-2" id="dialess" >
+        <button
+            type="button"
+            class="botonesnew me-1"
+            data-radio-id="108"
+            data-radio-cover="https://i.ibb.co/mhw9LGh/DJ-WILMER-PNG-ORIGINAL.png"
+            data-radio-url="https://sonic.dattassd.com/9086/stream"
+            data-radio-title="CHINCHEROS"
+            data-radio-category="105.5 FM">
+            <i class="bi bi-play icon-play"></i>
+            <i class="bi bi-pause icon-pause"></i>
+
+        </button>
+        <div class="d-flex flex-column me-1 titulodial">
+          <span class="play-btn-text lugares">CHINCHEROS</span>
+          <p class="diales">105.5 FM</p>
+        </div>
+        <p class="play-btn-text"></p>
+      </div>
+            <div class="botonera my-2" id="dialess" >
+        <button
+            type="button"
+            class="botonesnew me-1"
+            data-radio-id="107"
+            data-radio-cover="https://i.ibb.co/mhw9LGh/DJ-WILMER-PNG-ORIGINAL.png"
+            data-radio-url="https://sonic.dattassd.com/9084/stream"
+            data-radio-title="TINTAY"
+            data-radio-category="96.3 FM">
+            <i class="bi bi-play icon-play"></i>
+            <i class="bi bi-pause icon-pause"></i>
+
+        </button>
+        <div class="d-flex flex-column me-1 titulodial">
+          <span class="play-btn-text lugares">TINTAY</span>
+          <p class="diales">96.3 FM</p>
+        </div>
+        <p class="play-btn-text"></p>
+      </div>
+            <div class="botonera my-2" id="dialess" >
+        <button
+            type="button"
+            class="botonesnew me-1"
+            data-radio-id="106"
+            data-radio-cover="https://i.ibb.co/mhw9LGh/DJ-WILMER-PNG-ORIGINAL.png"
+            data-radio-url="https://stream.zeno.fm/ve5kqm6deq3vv"
+            data-radio-title="CORPORACION E&L"
+            data-radio-category="LUYA AMAZONAS">
+            <i class="bi bi-play icon-play"></i>
+            <i class="bi bi-pause icon-pause"></i>
+
+        </button>
+        <div class="d-flex flex-column me-1 titulodial">
+          <span class="play-btn-text lugares">RADIO CORPORACION E&L</span>
+          <p class="diales">103.7 FM ,90.5FM OCALLI, LUYA AMAZONAS</p>
+        </div>
+        <p class="play-btn-text"></p>
+      </div>
+            <div class="botonera my-2" id="dialess" >
+        <button
+            type="button"
+            class="botonesnew me-1"
+            data-radio-id="105"
+            data-radio-cover="https://i.ibb.co/mhw9LGh/DJ-WILMER-PNG-ORIGINAL.png"
+            data-radio-url="https://radio.transmite.pe:7007/;"
+            data-radio-title="LUYA AMAZONAS"
+            data-radio-category="101.7 FM">
+            <i class="bi bi-play icon-play"></i>
+            <i class="bi bi-pause icon-pause"></i>
+
+        </button>
+        <div class="d-flex flex-column me-1 titulodial">
+          <span class="play-btn-text lugares">RADIO KUNAMIA</span>
+          <p class="diales">101.7 FM</p>
+        </div>
+        <p class="play-btn-text"></p>
+      </div>
+            <div class="botonera my-2" id="dialess" >
+        <button
+            type="button"
+            class="botonesnew me-1"
+            data-radio-id="104"
+            data-radio-cover="https://i.ibb.co/mhw9LGh/DJ-WILMER-PNG-ORIGINAL.png"
+            data-radio-url="https://sonic.dattassd.com/9096/stream"
+            data-radio-title="CURAHUASI"
+            data-radio-category="107.7 FM">
+            <i class="bi bi-play icon-play"></i>
+            <i class="bi bi-pause icon-pause"></i>
+
+        </button>
+        <div class="d-flex flex-column me-1 titulodial">
+          <span class="play-btn-text lugares">CURAHUASI</span>
+          <p class="diales">107.7 FM</p>
+        </div>
+        <p class="play-btn-text"></p>
+      </div>
+            <div class="botonera my-2" id="dialess" >
+        <button
+            type="button"
+            class="botonesnew me-1"
+            data-radio-id="103"
+            data-radio-cover="https://i.ibb.co/mhw9LGh/DJ-WILMER-PNG-ORIGINAL.png"
+            data-radio-url="https://sonic.dattassd.com/9098/stream"
+            data-radio-title="GRAU"
+            data-radio-category="106.3 FM">
+            <i class="bi bi-play icon-play"></i>
+            <i class="bi bi-pause icon-pause"></i>
+
+        </button>
+        <div class="d-flex flex-column me-1 titulodial">
+          <span class="play-btn-text lugares">GRAU</span>
+          <p class="diales">106.3 FM</p>
+        </div>
+        <p class="play-btn-text"></p>
+      </div>
+            <div class="botonera my-2" id="dialess" >
+        <button
+            type="button"
+            class="botonesnew me-1"
+            data-radio-id="102"
+            data-radio-cover="https://i.ibb.co/mhw9LGh/DJ-WILMER-PNG-ORIGINAL.png"
+            data-radio-url="https://sonic.dattassd.com/8104/stream"
+            data-radio-title="SUPER STEREO"
+            data-radio-category="Online">
+            <i class="bi bi-play icon-play"></i>
+            <i class="bi bi-pause icon-pause"></i>
+
+        </button>
+        <div class="d-flex flex-column me-1 titulodial">
+          <span class="play-btn-text lugares">SUPER STEREO</span>
+          <p class="diales">Online</p>
+        </div>
+        <p class="play-btn-text"></p>
+      </div>
+            <div class="botonera my-2" id="dialess" >
+        <button
+            type="button"
+            class="botonesnew me-1"
+            data-radio-id="101"
+            data-radio-cover="https://i.ibb.co/mhw9LGh/DJ-WILMER-PNG-ORIGINAL.png"
+            data-radio-url="https://sonic.dattassd.com/9094/stream"
+            data-radio-title="ANDAHUAYLAS"
+            data-radio-category="93.3 FM">
+            <i class="bi bi-play icon-play"></i>
+            <i class="bi bi-pause icon-pause"></i>
+
+        </button>
+        <div class="d-flex flex-column me-1 titulodial">
+          <span class="play-btn-text lugares">ANDAHUAYLAS</span>
+          <p class="diales">93.3 FM</p>
+        </div>
+        <p class="play-btn-text"></p>
+      </div>
+          </div>
+  </div>
+</header>
+<section class="container bg-light">
+    <div class="pt-2 pb-0 position-relative overflow-hidden">
+        <div class="row">
+            <div class="col">
+                <nav class="pt-2 pb-2 d-flex justify-content-between flex-wrap align-content-stretch w-100 text-center">
+                    <div class="Facebook px-4 py-3 bg-primary d-flex align-content-center flex-wrap" style="flex: 4;">
+                        <a class="text-white fs-2 fw-bold" href="https://web.facebook.com/DJCHOCHOBARWILMER" target="_blank"><i class="bi-alarm"></i> Facebook </a>
+                    </div>
+                    <div class="Tiktok px-4 py-3 bg-dark d-flex align-content-center flex-wrap" style="flex: 4;">
+                        <a class="text-white fs-2 fw-bold" href="https://www.tiktok.com/@djchochobarwilmer" target="_blank"><i class="bi-alarm"></i> Tiktok </a>
+                    </div>
+                    <div class="Youtube px-4 py-3 bg-danger d-flex align-content-center flex-wrap" style="flex: 4;">
+                        <a class="text-white fs-2 fw-bold" href="https://www.youtube.com/DJCHOCHOBARWILMER" target="_blank"><i class="bi-alarm"></i> Youtube </a>
+                    </div>
+                    <div class="Twitter px-4 py-3 bg-info d-flex align-content-center flex-wrap" style="flex: 4;">
+                        <a class="text-white fs-2 fw-bold" href="https://x.com/Dj_Wilmer_Peru" target="_blank"> <i class="bi-alarm"></i> Twitter </a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="row">
+                        <div class="bloque-cancion col-xl-4 col-lg-4 col-md-6 col-sm-12 pb-3">
+                <div class="overflow-hidden w-100">
+                    <a class="w-100 text-decoration-none" href="https://api.whatsapp.com/send?phone=51984335569&text=%F0%9F%99%82">
+                        <div class="btn_play_cancion"><i class="fas fa-play"></i></div>
+                        <img class="w-100" style="height: auto;" src="//i.ytimg.com/vi_webp/fHcwwVxp-3Y/mqdefault.webp" />
+                        <h6 class="mb-auto bg-light text-uppercase p-1 fst-light">
+                            <strong>contactos</strong>
+                        </h6>
+                    </a>
+                </div>
+            </div>
+                        <div class="bloque-cancion col-xl-4 col-lg-4 col-md-6 col-sm-12 pb-3">
+                <div class="overflow-hidden w-100">
+                    <a class="w-100 text-decoration-none" href="https://radio-en-vivo.vercel.app/">
+                        <div class="btn_play_cancion"><i class="fas fa-play"></i></div>
+                        <img class="w-100" style="height: auto;" src="//i.ytimg.com/vi_webp/duz0rT_TaWk/mqdefault.webp" />
+                        <h6 class="mb-auto bg-light text-uppercase p-1 fst-light">
+                            <strong>player pwa 2025</strong>
+                        </h6>
+                    </a>
+                </div>
+            </div>
+                        <div class="bloque-cancion col-xl-4 col-lg-4 col-md-6 col-sm-12 pb-3">
+                <div class="overflow-hidden w-100">
+                    <a class="w-100 text-decoration-none" href="https://chat.whatsapp.com/Hlxt5zTNkUsJ7IWzFyS39x">
+                        <div class="btn_play_cancion"><i class="fas fa-play"></i></div>
+                        <img class="w-100" style="height: auto;" src="//i.ytimg.com/vi_webp/ndDHJcsAMJE/mqdefault.webp" />
+                        <h6 class="mb-auto bg-light text-uppercase p-1 fst-light">
+                            <strong>Comunidad Mundial</strong>
+                        </h6>
+                    </a>
+                </div>
+            </div>
+                        <div class="bloque-cancion col-xl-4 col-lg-4 col-md-6 col-sm-12 pb-3">
+                <div class="overflow-hidden w-100">
+                    <a class="w-100 text-decoration-none" href=" https://chat.whatsapp.com/CZUKRqCpeJu39xRs0bejlB"
+                        <div class="btn_play_cancion"><i class="fas fa-play"></i></div>
+                        <img class="w-100" style="height: auto;" src="//i.ytimg.com/vi_webp/ndDHJcsAMJE/mqdefault.webp" />
+                        <h6 class="mb-auto bg-light text-uppercase p-1 fst-light">
+                            <strong>DE TODO PARA TU EMISORA FM</strong>
+                        </h6>
+                    </a>
+                </div>
+            </div>
+                        <div class="bloque-cancion col-xl-4 col-lg-4 col-md-6 col-sm-12 pb-3">
+                <div class="overflow-hidden w-100">
+                    <a class="w-100 text-decoration-none" href="https://wilmerdelgadocieza.blogspot.com/">
+                        <div class="btn_play_cancion"><i class="fas fa-play"></i></div>
+                        <img class="w-100" style="height: auto;" src="//i.ytimg.com/vi_webp/VxPo1nWsL0o/mqdefault.webp" />
+                        <h6 class="mb-auto bg-light text-uppercase p-1 fst-light">
+                            <strong>DJ WILMER Luya Amazonas </strong>
+                        </h6>
+                    </a>
+                </div>
+            </div>
+                        <div class="bloque-cancion col-xl-4 col-lg-4 col-md-6 col-sm-12 pb-3">
+                <div class="overflow-hidden w-100">
+                    <a class="w-100 text-decoration-none" href="https://wilmerdelgadocieza.blogspot.com/">
+                        <div class="btn_play_cancion"><i class="fas fa-play"></i></div>
+                        <img class="w-100" style="height: auto;" src="//i.ytimg.com/vi_webp/aV4ZSI2QYCk/mqdefault.webp" />
+                        <h6 class="mb-auto bg-light text-uppercase p-1 fst-light">
+                            <strong>Sitio web Radio</strong>
+                        </h6>
+                    </a>
+                </div>
+            </div>
+                    </div>
+    </div>
+</section>
+<main class="container p-3 bg-light">
+    <div class="row">
+        <div class="col p-0">
+            <img src='https://i.ibb.co/bWssdjT/anuncio1.png' class='w-100'/>        </div>
+    </div>
+    <br />
+    <div class="mb-4">
+        <h2 class="m-0 fw-bold"><i class="fas fa-hourglass-start"></i> Lo más destacado de HOY</h2>
+        <p>Sitio web amigas  uniendo a todo mundo</p>
+    </div>
+    <article class="row gy-4 align-items-stretch pb-3">
+                <div class="col-sm-4">
+            <div class="card h-100">
+                <div class="position-relative">
+                    <img class="card-img" src="https://i.ibb.co/mhw9LGh/DJ-WILMER-PNG-ORIGINAL.png" alt="Dj Wilmer" style="height: 200px;">
+                    <div class="card-img-overlay gradiente_cat d-flex align-items-start flex-column p-3">
+                        <div class="w-100 mt-auto">
+                            <a href="/categoria/Noticia" class="badge bg-danger text-uppercase">
+                                <i class="fas fa-circle me-2 small fw-bold"></i>
+                                DJ WILMER LIVE                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body px-2 pt-3">
+                    <h4 class="card-title">
+                        <a href="/noticia/9022-APURiMAC-ES-GOLPEADA-POR-BAJAS-TEMPERAT" class="text-reset fw-bold">DJ WILMER EN VIVO.</a>
+                    </h4>
+                    <p class="card-text"> ...</p>
+                </div>
+            </div>
+        </div>
+                <div class="col-sm-4">
+            <div class="card h-100">
+                <div class="position-relative">
+                    <img class="card-img" src="https://i.ibb.co/9p8hpS3/Radio-Streaming.png" alt="RADIO STREAMING"height: 200px;">
+                    <div class="card-img-overlay gradiente_cat d-flex align-items-start flex-column p-3">
+                        <div class="w-100 mt-auto">
+                            <a href="/categoria/Politica" class="badge bg-danger text-uppercase">
+                                <i class="fas fa-circle me-2 small fw-bold"></i>
+                                RADIO STREAMING                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body px-2 pt-3">
+                    <h4 class="card-title">
+                        <a href="/noticia/97469-ALCALDE-DE-ANDAHUAYLAS-GERENTE-MUNICIPA" class="text-reset fw-bold">RADIO STREAMING</a>
+                    </h4>
+                    <p class="card-text">...</p>
+                </div>
+            </div>
+        </div>
+                <div class="col-sm-4">
+            <div class="card h-100">
+                <div class="position-relative">
+                    <img class="card-img" src="https://i.ibb.co/nQBgH7g/image.jpg" alt="RADIO" style="height: 200px;">
+                    <div class="card-img-overlay gradiente_cat d-flex align-items-start flex-column p-3">
+                        <div class="w-100 mt-auto">
+                            <a href="/categoria/Noticia" class="badge bg-danger text-uppercase">
+                                <i class="fas fa-circle me-2 small fw-bold"></i>
+                                DE TODO PARA TU EMISORA                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body px-2 pt-3">
+                    <h4 class="card-title">
+                        <a href="...." class="text-reset fw-bold">Material gratis para tu emisora</a>
+                    </h4>
+                    <p class="card-text">..</p>
+                </div>
+            </div>
+        </div>
+                <div class="col-sm-4">
+            <div class="card h-100">
+                <div class="position-relative">
+                    <img class="card-img" src="https://i.ibb.co/Jww9wwDc/girl-headphones.png" alt="SOLICITARON " style="height: 200px;">
+                    <div class="card-img-overlay gradiente_cat d-flex align-items-start flex-column p-3">
+                        <div class="w-100 mt-auto">
+                            <a href="/categoria/Politica" class="badge bg-danger text-uppercase">
+                                <i class="fas fa-circle me-2 small fw-bold"></i>
+                                DJ CHICA RAP                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body px-2 pt-3">
+                    <h4 class="card-title">
+                        <a href="/noticia/88993-SOLICITARON-KIT-DE-REVOCATORIA-PARA-ALCA" class="text-reset fw-bold">...</a>
+                    </h4>
+                    <p class="card-text">PROGRAMACION 
+                                VARIADO 2025                           </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body px-2 pt-3">
+                    <h4 class="card-title">
+                        <a href="/noticia/.." class="text-reset fw-bold"></a>
+                    </h4>
+                    <p class="card-text">..</p>
+                </div>     
+            </div>
+        </div>
+                <div class="col-sm-4">
+            <div class="card h-100">
+                <div class="position-relative">
+                    <img class="card-img" src="." alt="..– COTABAMBAS" style="height: 200px;">
+                    <div class="card-img-overlay gradiente_cat d-flex align-items-start flex-column p-3">
+                        <div class="w-100 mt-auto">
+                            <a href="/categoria/Noticia" class="badge bg-danger text-uppercase">
+                                <i class="fas fa-circle me-2 small fw-bold"></i>
+                                                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body px-2 pt-3">
+                    <h4 class="card-title">
+                        <a href="/noticia/40712-UN-MUERTO-Y-UN-HERIDO-DEJA-CAiDA-DE-AUT" class="text-reset fw-bold">LUNES</a>
+                    </h4>
+                    <p class="card-text">Cotabambas....</p>
+                </div>
+            </div>
+        </div>
+            </article>
+    <div class="row">
+        <div class="col p-0">
+            <img src='....DJWILMER.' class='w-100'/>        </div>
+    </div>
+</main>
+                </div>
+            </div>
+            <!-- End:: under header -->
+            <!-- Start:: footer -->
+            <footer id="footer" class="bg-primary text-white">
+                <div class="container">
+  <div class="row py-5 align-items-center align-self-center align-content-center">
+        <div class="col-md-3">
+          <img src="https://i.ibb.co/mhw9LGh/DJ-WILMER-PNG-ORIGINAL.png
+" alt="" style="width:100%; max-width: 252px;">
+        </div>
+        <div class="col-md-4">
+          <h4> <strong>Nosotros</strong> </h4>
+          <p>Dj Wilmer Luya Amazonas del Perú, para el mundo entero.</p>
+        </div>
+        <div class="col-md-5">
+          <h4> <strong>Contacto</strong> </h4>
+         <p><i class="bi bi-map-marker"></i> Distrito.Camporredondo / Luya - Amazonas Peru </p>
+         <p><i class="bi bi-phone"></i> 984335569</p>
+         <p><i class="bi bi-envelope"></i> wilmerdelgadocieza@gmail.com </p>
+         <p><i class="bi bi-globe"></i> https://wilmerdelgadocieza.blogspot.com </p>
+        </div>
+      </div>
+</div>
+<div class="container">
+  <p class="m-0 text-center text-white">Copyright &copy; DJ WILMER 984335569 - Poder Que Se Siente..!2025</p>
+</div>
+<br>
+            </footer>
+            <!-- End:: footer -->
+
+        </div>
+
+                                <div class="corazones" style="display: block;">
+                          <div class="btFullHeightBannerLeft">
+                            <a href="#"><img class="w-100" src="https://i.ibb.co/LdRkpBTc/baner-izquierda.jpg"></a>
+                          </div>
+                          <div class="btFullHeightBannerRight">
+                            <a href="#"><img class="w-100" src="https://i.ibb.co/JWrBrFf1/baner-Derecha.jpg"></a>
+                          </div>
+                        </div>
+        					
+        <div id="player" class="bg-primary">
+            <div id="player_info">
+                <div class="cover">
+                    <div class="cover__image">
+                        <img class="https://i.ibb.co/mhw9LGh/DJ-WILMER-PNG-ORIGINAL.png
+" alt="" />
+                    </div>
+                </div>
+                <div class="playlist">
+                    <div class="d-flex align-items-center justify-content-between mb-2">
+                        <h6 class="mb-0 fw-bold">Lineup</h6>
+                        <a href="javascript:void(0);" id="clear_playlist">Clear</a>
+                    </div>
+                    <ul id="playlist" class="list-group list-group-flush"></ul>
+                </div>
+                <a href="javascript:void(0);" id="close_playlist">&times;</a>
+            </div>
+            <audio id="audio_player" crossorigin="anonymous" controls="controls"></audio>
+            <a href="javascript:void(0);" id="player_toggler" class="text-dark">
+                <i class="bi bi-arrow-bar-right fs-5 arrow-right"></i>
+                <i class="bi bi-arrow-bar-left fs-5 arrow-left"></i>
+            </a>
+        </div>
+        <div id="wrapper" class="menulef bg-primary min-vh-100">
+            <div class="d-flex flex-column align-items-start align-content-between justify-content-between px-3 text-white h-100">
+                <a href="/" class="w-100 p-2">
+                    <img src="https://i.ibb.co/mhw9LGh/DJ-WILMER-PNG-ORIGINAL.png" alt="" class="w-100">
+                </a>
+                <ul class="nav nav-pills flex-column w-100 pt-3">
+                  <li class="nav-item border-dark sowertec-e">
+                      <a class="nav-link p-3 " href="/index.php"><i class="bi bi-house"></i> Inicio</a>
+                  </li>
+                    <li class="nav-item border-dark sowertec-e">
+                      <a class="nav-link p-3 " href="/noticias"><i class="bi bi-newspaper"></i> Noticias</a>
+                    </li>
+                    <li class="nav-item border-bottom border-dark sowertec-e">
+                      <a class="nav-link p-3 " href="/videos"><i class="bi bi-youtube"></i> Videos</a>
+                    </li>
+                    <li class="nav-item border-dark sowertec-e">
+                      <a class="nav-link p-3 " href="/programacion"><i class="bi bi-calendar-event"></i> Programacion</a>
+                    </li>
+                    <li class="nav-item border-dark sowertec-e">
+                      <a class="nav-link p-3 " href="/contactos"><i class="bi bi-person-lines-fill"></i> Contacto</a>
+                    </li>
+                    <hr>
+                    <li class="nav-item border-dark sowertec-e">
+                      <a class="nav-link p-3 " href="/terms">Camporredondo Luya Amazonas</a>
+                    </li>
+                    <li class="nav-item border-dark sowertec-e">
+                      <a class="nav-link p-3 " href="/nosotros">DJ WILMER 984335569</a>
+                    </li>
+                    <li class="nav-item border-dark sowertec-e">
+                      <a class="nav-link p-3 " href="/privacy-policy">Diseñado por DJ WILMER </a>
+                    </li>
+                </ul>
+                <div class="sociales mt-auto p-2 bd-highlight mb-5">
+                  <div class="d-flex align-items-center align-self-center align-content-center mb-3">
+                    <a class="bg-white text-primary sowertec-social-icon rounded-circle" href="https://web.facebook.com/DJCHOCHOBARWILME" target="_blank">
+                      <i class="bi bi-facebook"></i>
+                    </a>
+                    <a class="bg-white text-primary sowertec-social-icon rounded-circle" href="https://www.instagram.com/wilmerdelgadocieza/" target="_blank">
+                      <i class="bi bi-instagram"></i>
+                    </a>
+                    <a class="bg-white text-primary sowertec-social-icon rounded-circle" href="https://www.youtube.com/DJCHOCHOBARWILMER" target="_blank">
+                      <i class="bi bi-youtube"></i>
+                    </a>
+                    <a class="bg-white text-primary sowertec-social-icon rounded-circle" href="https://x.com/Dj_Wilmer_Peru" target="_blank">
+                      <i class="bi bi-twitter"></i>
+                    </a>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <!-- Scripts -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://corporacionradioalegria.com/js/plugins.bundle.js"></script>
+        <script src="https://corporacionradioalegria.com/js/web.js"></script>
+        <script src="https://corporacionradioalegria.com/js/notify.js"></script>
+        <script src="https://corporacionradioalegria.com/js/scripts.bundle.js"></script>
+
+
+        <script>
+      		var base_url = "https://corporacionradioalegria.com";
+      		var tituloweb = "DJ WILMER - Poder Que Se Siente..!";
+          var puerto_stream = "8104";
+          var hostname_steram = "sonic.godo.pe";
+      		var urlradio = "https://sonic.godo.pe/8104/stream";
+      		</script>
+
+
+    </body>
+</html>
